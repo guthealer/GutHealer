@@ -34,11 +34,7 @@ function Blogs(props) {
     return (
         <div style={{minHeight:''}}>
          <Blog_box>
-            <BlogCard>
-                <h2>Most Effective Path For IBS Treatment</h2>
-              <a href="https://ibsreliefforever.blogspot.com/2021/10/most-effective-path-for-ibs-treatment.html" target='_blank'>
-                <button type="">Click to read </button></a>
-            </BlogCard>
+           
 
             <BlogCard>
                 <h2>MY 60 DAYS OF JUICE FASTING</h2>

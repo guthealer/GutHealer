@@ -11,6 +11,8 @@ import Testimonial from "../components/Testimonial";
 function Home(props) {
   return (
     <div>
+
+
       <Hero />
 
       <Intro />
@@ -18,6 +20,7 @@ function Home(props) {
       <Myservice />
       <Contact />
       <Testimonial />
+   
     </div>
   );
 }
