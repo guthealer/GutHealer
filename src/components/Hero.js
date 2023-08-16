@@ -63,8 +63,6 @@ overflow: hidden;
              object-fit:cover;
              filter: brightness(80%);
           
-             
-           
            }
 
          

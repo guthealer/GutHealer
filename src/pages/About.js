@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Intro from '../components/Intro';
-
+import certificate_img from '../Images/akash_ithrive_certificate.jpg'
 
 
 
@@ -12,7 +12,7 @@ const beize = "#E5D9B6";
 
 const MyIntro = styled.div`
         min-height:100vh ;
-        max-width: 800px;
+        max-width: 900px;
         margin: auto;
         padding:1rem;
         color: ${earth};
@@ -27,7 +27,7 @@ const MyIntro = styled.div`
            font-size: 1.2rem;
            border-radius: 2rem;
            
-         background-color:rgba(150,170,130,0.5);
+         background-color:rgba(150,170,130,0.3);
          p{
             line-height: 1.7rem;
             font-size: 1.2rem;
@@ -74,10 +74,16 @@ function About(props) {
                     Within one year I was almost free from GERD and IBS . For anorectal problems i again had surgery. It took couple of months to recover from surgery.
                 </p> 
                 <p>
-                    Later on , I decided to explore this field of health world. I enrolled into  a course on gut health also and gained a certificate from CPD.
-                    I have been learning and treating clients since then.
-                    I have handled many clients with health conditions like GERD, IBS, IBD, Body Pain, Constipation,Diarrhea.
+                    Later on , I decided to explore this field of health world. I enrolled into a Functional Nutrition course and gained a certificate from <a href="https://www.ithrive.academy/" style={{color:'darkred'}}>iThrive Academy </a> .
+                    I have been learning and treating clients since 2021.
+                    I have handled many clients with health conditions like GERD, IBS, IBD, Body Pain, Constipation and Diarrhea.
                     </p> 
+
+                    <p>
+
+                    </p>
+                 <img src={certificate_img} alt="certificate"  style={{maxWidth:'400px',borderRadius:'1rem'}} width='100%'/>
+               
                  </section>
             </MyIntro>
         </div>

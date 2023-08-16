@@ -75,7 +75,7 @@ function Intro(props) {
 
                    <MyInfo>
                              <h2>Hello, I am GutHealer</h2>
-                             <p>My name is Akash and I am gut health consultant.
+                             <p>My name is Akash and I am Gut Health Coach and Certified Functional Nutritionist .
                             
                                 I help people to treat their Gut health conditions like GERD,IBS and IBD.
                              </p>
