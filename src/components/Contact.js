@@ -147,14 +147,16 @@ function Contact(props) {
                    <InputBox>
                              <Label>Health Condition & Symptoms</Label>
                              <input type="text" name="health_condition" value={health_condition}
-                             onChange={e => updateFormData(e)}/>
+                             onChange={e => updateFormData(e)} />
                    </InputBox>
 
-                   <InputBox>    
-                   <button type='submit' value='Submit'>Submit</button>
+                   <InputBox>  
+                  
+                   <button type='submit' value='Submit' disabled>Submit</button>
                    </InputBox>
-
+                   <p style={{color:'red'}}>**Don't send form*** DM on Instagram****</p> 
             </MyForm>
+           
             
             </ContainerForm>
           

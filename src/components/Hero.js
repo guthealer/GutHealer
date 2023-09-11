@@ -33,8 +33,8 @@ overflow: hidden;
            background-repeat: no-repeat;
         background-size: cover;
        
-
-           h2{color:wheat;
+      
+           h2{color:whitesmoke;
            
             border-radius: 10px;
             padding: 10px;
@@ -53,6 +53,7 @@ overflow: hidden;
            }
           
            img{
+         
             width:100%;
             height:auto;
             max-height: 70vh;
@@ -73,6 +74,7 @@ function Hero(props) {
     return (
         <div>
             <HeroBox>
+             
                 <h2>Happy Gut Happy Life</h2>
                 <img src="https://thecookbook.pk/wp-content/uploads/2018/10/nutrion.jpg" alt="" width='100%'/>
               
